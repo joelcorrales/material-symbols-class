@@ -1,0 +1,5 @@
+@use "./node_modules/material-symbols/rounded.scss";
+
+.mi-rounded {
+  @extend .material-symbols-rounded;
+}

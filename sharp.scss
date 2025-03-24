@@ -1,0 +1,5 @@
+@use "./node_modules/material-symbols/sharp.scss";
+
+.mi-sharp {
+  @extend .material-symbols-sharp;
+}

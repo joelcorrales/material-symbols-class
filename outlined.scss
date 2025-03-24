@@ -1,0 +1,5 @@
+@use "./node_modules/material-symbols/outlined.scss";
+
+.mi {
+  @extend .material-symbols-outlined;
+}

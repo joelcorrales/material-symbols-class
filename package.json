@@ -1,0 +1,34 @@
+{
+  "name": "material-symbols-class",
+  "version": "0.1.0",
+  "description": "material-symbols implementation to use them with classes",
+  "author": "Joel Corrales <joel.corrales@super7ui.com>",
+  "bugs": {
+    "url": "https://github.com/joelcorrales/material-symbols-class/issues"
+  },
+  "scripts": {
+    "copy:fonts": "node move_fonts",
+    "build:css": "npm copy:fonts && sass --no-source-map --no-error-css ./:./",
+    "build:css:min": "npm copy:fonts && sass --style compressed --no-source-map --no-error-css material-symbols.scss:material-symbols.min.css outlined.scss:outlined.min.css rounded.scss:rounded.min.css sharp.scss:sharp.min.css index.scss:index.min.css"
+  },
+  "license": "MIT License",
+  "devDependencies": {
+    "sass": "1.56.1",
+    "material-symbols": "0.29.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelcorrales/material-symbols-class.git"
+  },
+  "keywords": [
+    "material-symbols",
+    "material",
+    "icons",
+    "class",
+    "class-only",
+    "classes",
+    "font",
+    "css",
+    "sass"
+  ]
+}
