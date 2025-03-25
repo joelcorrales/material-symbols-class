@@ -5,7 +5,7 @@
   font-display: block;
   src: url("./material-symbols-outlined.woff2") format("woff2");
 }
-.material-symbols-outlined, .mi {
+.material-symbols-outlined, .ms {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
@@ -30,7 +30,7 @@
   font-display: block;
   src: url("./material-symbols-rounded.woff2") format("woff2");
 }
-.material-symbols-rounded, .mi-rounded {
+.material-symbols-rounded, .ms-rounded {
   font-family: "Material Symbols Rounded";
   font-weight: normal;
   font-style: normal;
@@ -55,7 +55,7 @@
   font-display: block;
   src: url("./material-symbols-sharp.woff2") format("woff2");
 }
-.material-symbols-sharp, .mi-sharp {
+.material-symbols-sharp, .ms-sharp {
   font-family: "Material Symbols Sharp";
   font-weight: normal;
   font-style: normal;

@@ -1,6 +1,6 @@
-# [material-symbols](https://github.com/marella/material-symbols/tree/main/material-symbols)
+# [material-symbols-class](https://github.com/joelcorrales/material-symbols-class)
 
-Latest variable icon fonts and CSS for Material Symbols to use as classes.
+This is a package that uses [material-symbols](https://github.com/marella/material-symbols/tree/main/material-symbols) to provide a way of using the icons just with classes.
 
 - [Installation](#installation)
 - [Usage](#usage)
