@@ -8,8 +8,8 @@
   },
   "scripts": {
     "copy:fonts": "node move_fonts",
-    "build:css": "npm copy:fonts && sass --no-source-map --no-error-css ./:./",
-    "build:css:min": "npm copy:fonts && sass --style compressed --no-source-map --no-error-css material-symbols.scss:material-symbols.min.css outlined.scss:outlined.min.css rounded.scss:rounded.min.css sharp.scss:sharp.min.css index.scss:index.min.css"
+    "build:css": "npm run copy:fonts && sass --no-source-map --no-error-css ./:./",
+    "build:css:min": "npm run copy:fonts && sass --style compressed --no-source-map --no-error-css material-symbols.scss:material-symbols.min.css outlined.scss:outlined.min.css rounded.scss:rounded.min.css sharp.scss:sharp.min.css index.scss:index.min.css"
   },
   "license": "MIT License",
   "devDependencies": {
