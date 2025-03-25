@@ -16,10 +16,7 @@
     "sass": "1.56.1",
     "material-symbols": "0.29.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joelcorrales/material-symbols-class.git"
-  },
+  "repository": "https://github.com/joelcorrales/material-symbols-class.git",
   "keywords": [
     "material-symbols",
     "material",
@@ -37,6 +34,6 @@
     "*.woff2"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   }
 }
