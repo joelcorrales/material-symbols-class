@@ -37,18 +37,29 @@ or import in HTML:
 To display an icon, use one of the following:
 
 ```html
-<span class="ms ms-face"></span>
+<span class="msc msc-face"></span>
 <!-- Outlined -->
-<span class="ms-rounded  ms-face"></span>
+<span class="msc-rounded  msc-face"></span>
 <!-- Rounded -->
-<span class="ms-sharp  ms-face"></span>
+<span class="msc-sharp  msc-face"></span>
 <!-- Sharp -->
+```
+
+Adding the `utils.css` you can edit the `fill` and `weight` variables with classes too:
+
+```html
+<span class="msc msc-face msc-fill"></span>
+<!-- 'FILL': 1 -->
+<span class="msc msc-face msc-100"></span>
+<!-- 'weight': 100 -->
+<span class="msc msc-face msc-fill msc-100"></span>
+<!-- 'FILL': 1 && 'weight': 300 -->
 ```
 
 To customize the variable font axes (fill, weight, grade, and optical size), use:
 
 ```css
-.ms {
+.msc {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 ```
