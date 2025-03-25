@@ -3580,8 +3580,12 @@
     </div>`;
   }
 
-  function renderIcons() {
-    const iconsHTML = icons.map((icon) => renderIcon(icon)).join("");
+  function renderIcons(filter = "") {
+    const iconsFiltered = icons.filter((icon) =>
+      icon.toLowerCase().includes(filter.toLowerCase())
+    );
+
+    const iconsHTML = iconsFiltered.map((icon) => renderIcon(icon)).join("");
 
     document.querySelector("#symbol-grid").innerHTML = iconsHTML;
 
@@ -3597,13 +3601,8 @@
 
   document.querySelector("input").addEventListener("input", (e) => {
     const value = e.target.value;
-    const iconsFiltered = icons.filter((icon) =>
-      icon.toLowerCase().includes(value.toLowerCase())
-    );
 
-    const iconsHTML = iconsFiltered.map((icon) => renderIcon(icon)).join("");
-
-    document.querySelector("#symbol-grid").innerHTML = iconsHTML;
+    renderIcons(value);
   });
 
   document.querySelector("#type-select").addEventListener("change", (e) => {
