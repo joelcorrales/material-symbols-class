@@ -1,5 +1,6 @@
 @use "./node_modules/material-symbols/sharp.scss";
 
-.ms-sharp {
+.msc-sharp {
   @extend .material-symbols-sharp;
+  font-size: 1.25em;
 }

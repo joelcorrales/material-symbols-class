@@ -1,5 +1,6 @@
 @use "./node_modules/material-symbols/outlined.scss";
 
-.ms {
+.msc {
   @extend .material-symbols-outlined;
+  font-size: 1.25em;
 }

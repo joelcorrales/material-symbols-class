@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Material Symbols Class</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../index.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../material-symbols.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../utils.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="flex flex-col items-center justify-center bg-indigo-900 h-[15rem] gap-8"
+    >
+      <h1 class="text-white font-semibold text-4xl">Material Symbols Class</h1>
+      <p class="text-white w-1/2 text-center">
+        This is a package that uses
+        <a
+          href="https://github.com/marella/material-symbols/tree/main/material-symbols"
+          target="_blank"
+          >material-symbols</a
+        >
+        to provide a way of using the icons just with classes, useful to use
+        with libraries like PrimeNG.
+      </p>
+
+      <a
+        href="https://github.com/joelcorrales/material-symbols-class"
+        target="_blank"
+        class="outline-2 outline-neutral-50 rounded-md py-2 px-4 text-white font-semibold hover:bg-indigo-950"
+        >See in GitHub</a
+      >
+    </div>
+
+    <div class="flex flex-col items-center p-8 gap-8">
+      <div class="flex outline-2 outline-indigo-900 rounded-md p-4">
+        <div class="p-8">
+          <i id="display-symbol" class="msc msc-face !text-6xl"></i>
+        </div>
+
+        <div class="flex flex-col gap-8">
+          <div class="flex gap-8 items-center">
+            <div class="flex flex-col gap-2">
+              <label for="type-op">Style</label>
+              <select
+                class="p-1 outline-2 outline-indigo-900 rounded-md cursor-pointer"
+                name="type-op"
+                id="type-select"
+              >
+                <option value="outlined" selected>outlined</option>
+                <option value="rounded">rounded</option>
+                <option value="sharp">sharp</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="spin-op">Spin</label>
+              <select
+                class="p-1 outline-2 outline-indigo-900 rounded-md cursor-pointer"
+                name="spin-op"
+                id="spin-select"
+              >
+                <option value="false" selected>no spin</option>
+                <option value="true">spin</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label for="weight-op">Weight</label>
+              <select
+                class="p-1 outline-2 outline-indigo-900 rounded-md cursor-pointer"
+                name="weight-op"
+                id="weight-select"
+              >
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400" selected>400</option>
+                <option value="500">500</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="900">900</option>
+              </select>
+            </div>
+          </div>
+          <strong id="class-display" class="text-lg"
+            >class="msc msc-face"</strong
+          >
+        </div>
+      </div>
+
+      <input
+        type="text"
+        class="outline-2 outline-indigo-900 w-1/2 rounded-md p-2"
+        placeholder="Search for an symbol"
+      />
+
+      <div
+        id="symbol-grid"
+        class="grid grid-cols-[repeat(auto-fit,minmax(8rem,1fr))] gap-4 w-[80vw]"
+      ></div>
+    </div>
+  </body>
+
+  <script src="./demo.js"></script>
+</html>

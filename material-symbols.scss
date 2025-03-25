@@ -803,7 +803,7 @@ $icons: "123", "360", "10k", "10mp", "11mp", "12mp", "13mp", "14mp", "15mp",
   "zoom_out_map";
 
 @each $icon in $icons {
-  .ms-#{$icon}:after {
+  .msc-#{$icon}:after {
     content: $icon;
   }
 }
