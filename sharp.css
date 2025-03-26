@@ -5,7 +5,7 @@
   font-display: block;
   src: url("./material-symbols-sharp.woff2") format("woff2");
 }
-.material-symbols-sharp, .ms-sharp {
+.material-symbols-sharp, .msc-sharp {
   font-family: "Material Symbols Sharp";
   font-weight: normal;
   font-style: normal;
@@ -21,4 +21,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga";
+}
+
+.msc-sharp {
+  font-size: 1.25em;
 }

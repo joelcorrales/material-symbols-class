@@ -1,16 +1,16 @@
 {
   "name": "material-symbols-class",
-  "version": "0.1.0",
+  "version": "0.9.2",
   "description": "material-symbols implementation to use them with classes",
-  "author": "Joel Corrales <joel.corrales@super7ui.com>",
+  "author": "Joel Corrales <joel.corrales@outlook.com>",
   "bugs": {
     "url": "https://github.com/joelcorrales/material-symbols-class/issues"
   },
   "scripts": {
-    "build:all": "npm run build:css && npm run build:css:min",
+    "build:all": "npm run copy:fonts && npm run build:css && npm run build:css:min",
     "copy:fonts": "node move_fonts",
-    "build:css": "npm run copy:fonts && sass --no-source-map --no-error-css ./:./",
-    "build:css:min": "npm run copy:fonts && sass --style compressed --no-source-map --no-error-css material-symbols.scss:material-symbols.min.css outlined.scss:outlined.min.css rounded.scss:rounded.min.css sharp.scss:sharp.min.css index.scss:index.min.css"
+    "build:css": "sass --no-source-map --no-error-css ./:./",
+    "build:css:min": "sass --style compressed --no-source-map --no-error-css material-symbols.scss:material-symbols.min.css outlined.scss:outlined.min.css rounded.scss:rounded.min.css sharp.scss:sharp.min.css utils.scss:utils.min.css index.scss:index.min.css"
   },
   "license": "MIT License",
   "devDependencies": {
@@ -21,13 +21,15 @@
     "type": "git",
     "url": "git+https://github.com/joelcorrales/material-symbols-class.git"
   },
+  "homepage": "https://joelcorrales.github.io/material-symbols-class/",
   "keywords": [
     "material-symbols",
     "material",
+    "symbols",
     "icons",
+    "classes",
     "class",
     "class-only",
-    "classes",
     "font",
     "css",
     "sass"
