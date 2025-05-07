@@ -5,7 +5,8 @@
   font-display: block;
   src: url("./material-symbols-rounded.woff2") format("woff2");
 }
-.material-symbols-rounded, .msc-rounded {
+.material-symbols-rounded, .msc-r,
+.msc-rounded {
   font-family: "Material Symbols Rounded";
   font-weight: normal;
   font-style: normal;
@@ -23,6 +24,7 @@
   font-feature-settings: "liga";
 }
 
+.msc-r,
 .msc-rounded {
   font-size: 1.25em;
 }

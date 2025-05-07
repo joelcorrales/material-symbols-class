@@ -35,31 +35,44 @@ or import in HTML:
 ```
 
 To display an icon, use one of the following:
+The different font/styles can be used with the full name or the `short` version, be default `msc` will refer to `outlined`
 
 ```html
 <span class="msc msc-face"></span>
+<!-- Outlined default -->
+<span class="msc-o msc-face"></span>
+<!-- Outlined short class -->
+<span class="msc-outlined msc-face"></span>
 <!-- Outlined -->
+<span class="msc-r msc-face"></span>
+<!-- Rounded short class -->
 <span class="msc-rounded  msc-face"></span>
 <!-- Rounded -->
+<span class="msc-s msc-face"></span>
+<!-- Sharp short class -->
 <span class="msc-sharp  msc-face"></span>
 <!-- Sharp -->
 ```
 
-Adding the `utils.css` you can edit the `fill` and `weight` variables with classes too:
+Adding the `utils.css` you can edit the `fill`, `weight`, `spin` and `fix` variables with classes too:
 
 ```html
-<span class="msc msc-face msc-fill"></span>
+<span class="msc-outlined msc-face msc-fill"></span>
 <!-- 'FILL': 1 -->
-<span class="msc msc-face msc-100"></span>
+<span class="msc-outlined msc-face msc-100"></span>
 <!-- 'weight': 100 -->
-<span class="msc msc-face msc-fill msc-100"></span>
+<span class="msc-outlined msc-face msc-fill msc-100"></span>
 <!-- 'FILL': 1 && 'weight': 300 -->
+<span class="msc-outlined msc-face msc-spin"></span>
+<!-- Spinning icon -->
+<span class="msc-outlined msc-face msc-fix"></span>
+<!-- Fixed width icon -->
 ```
 
 To customize the variable font axes (fill, weight, grade, and optical size), use:
 
 ```css
-.msc {
+.msc-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 ```

@@ -118,6 +118,10 @@
   content: "30fps_select";
 }
 
+.msc-3d:after {
+  content: "3d";
+}
+
 .msc-3d_rotation:after {
   content: "3d_rotation";
 }
@@ -830,16 +834,8 @@
   content: "app_blocking";
 }
 
-.msc-app_promo:after {
-  content: "app_promo";
-}
-
 .msc-app_registration:after {
   content: "app_registration";
-}
-
-.msc-app_shortcut:after {
-  content: "app_shortcut";
 }
 
 .msc-apparel:after {
@@ -1438,6 +1434,62 @@
   content: "battery_alert";
 }
 
+.msc-battery_android_0:after {
+  content: "battery_android_0";
+}
+
+.msc-battery_android_1:after {
+  content: "battery_android_1";
+}
+
+.msc-battery_android_2:after {
+  content: "battery_android_2";
+}
+
+.msc-battery_android_3:after {
+  content: "battery_android_3";
+}
+
+.msc-battery_android_4:after {
+  content: "battery_android_4";
+}
+
+.msc-battery_android_5:after {
+  content: "battery_android_5";
+}
+
+.msc-battery_android_6:after {
+  content: "battery_android_6";
+}
+
+.msc-battery_android_alert:after {
+  content: "battery_android_alert";
+}
+
+.msc-battery_android_bolt:after {
+  content: "battery_android_bolt";
+}
+
+.msc-battery_android_full:after {
+  content: "battery_android_full";
+}
+
+.msc-battery_android_plus:after {
+  content: "battery_android_plus";
+}
+
+.msc-battery_android_question:after {
+  content: "battery_android_question";
+}
+
+.msc-battery_android_share:after {
+  content: "battery_android_share";
+}
+
+.msc-battery_android_shield:after {
+  content: "battery_android_shield";
+}
+
 .msc-battery_change:after {
   content: "battery_change";
 }
@@ -1708,10 +1760,6 @@
 
 .msc-book_4:after {
   content: "book_4";
-}
-
-.msc-book_4_spark:after {
-  content: "book_4_spark";
 }
 
 .msc-book_5:after {
@@ -2212,6 +2260,10 @@
 
 .msc-candlestick_chart:after {
   content: "candlestick_chart";
+}
+
+.msc-cannabis:after {
+  content: "cannabis";
 }
 
 .msc-captive_portal:after {
@@ -2864,6 +2916,14 @@
 
 .msc-computer:after {
   content: "computer";
+}
+
+.msc-computer_arrow_up:after {
+  content: "computer_arrow_up";
+}
+
+.msc-computer_cancel:after {
+  content: "computer_cancel";
 }
 
 .msc-concierge:after {
@@ -3566,6 +3626,10 @@
   content: "developer_mode_tv";
 }
 
+.msc-device_band:after {
+  content: "device_band";
+}
+
 .msc-device_hub:after {
   content: "device_hub";
 }
@@ -4246,10 +4310,6 @@
   content: "emergency_share_off";
 }
 
-.msc-emoji_events:after {
-  content: "emoji_events";
-}
-
 .msc-emoji_food_beverage:after {
   content: "emoji_food_beverage";
 }
@@ -4560,6 +4620,10 @@
 
 .msc-eyeglasses:after {
   content: "eyeglasses";
+}
+
+.msc-eyeglasses_2:after {
+  content: "eyeglasses_2";
 }
 
 .msc-face:after {
@@ -6050,6 +6114,14 @@
   content: "hearing_aid_disabled";
 }
 
+.msc-hearing_aid_disabled_left:after {
+  content: "hearing_aid_disabled_left";
+}
+
+.msc-hearing_aid_left:after {
+  content: "hearing_aid_left";
+}
+
 .msc-hearing_disabled:after {
   content: "hearing_disabled";
 }
@@ -6594,10 +6666,6 @@
   content: "install_desktop";
 }
 
-.msc-install_mobile:after {
-  content: "install_mobile";
-}
-
 .msc-instant_mix:after {
   content: "instant_mix";
 }
@@ -6884,6 +6952,10 @@
 
 .msc-landscape_2:after {
   content: "landscape_2";
+}
+
+.msc-landscape_2_edit:after {
+  content: "landscape_2_edit";
 }
 
 .msc-landscape_2_off:after {
@@ -7806,12 +7878,20 @@
   content: "mms";
 }
 
-.msc-mobile_friendly:after {
-  content: "mobile_friendly";
-}
-
 .msc-mobile_hand:after {
   content: "mobile_hand";
+}
+
+.msc-mobile_hand_left:after {
+  content: "mobile_hand_left";
+}
+
+.msc-mobile_hand_left_off:after {
+  content: "mobile_hand_left_off";
+}
+
+.msc-mobile_hand_off:after {
+  content: "mobile_hand_off";
 }
 
 .msc-mobile_loupe:after {
@@ -8486,10 +8566,6 @@
   content: "new_label";
 }
 
-.msc-new_releases:after {
-  content: "new_releases";
-}
-
 .msc-new_window:after {
   content: "new_window";
 }
@@ -8800,10 +8876,6 @@
 
 .msc-open_in_new_off:after {
   content: "open_in_new_off";
-}
-
-.msc-open_in_phone:after {
-  content: "open_in_phone";
 }
 
 .msc-open_jam:after {
@@ -9332,14 +9404,6 @@
 
 .msc-phonelink_erase:after {
   content: "phonelink_erase";
-}
-
-.msc-phonelink_lock:after {
-  content: "phonelink_lock";
-}
-
-.msc-phonelink_off:after {
-  content: "phonelink_off";
 }
 
 .msc-phonelink_ring:after {
@@ -10398,6 +10462,10 @@
   content: "router";
 }
 
+.msc-router_off:after {
+  content: "router_off";
+}
+
 .msc-routine:after {
   content: "routine";
 }
@@ -11094,6 +11162,10 @@
   content: "shield_question";
 }
 
+.msc-shield_watch:after {
+  content: "shield_watch";
+}
+
 .msc-shield_with_heart:after {
   content: "shield_with_heart";
 }
@@ -11670,6 +11742,22 @@
   content: "split_scene";
 }
 
+.msc-split_scene_down:after {
+  content: "split_scene_down";
+}
+
+.msc-split_scene_left:after {
+  content: "split_scene_left";
+}
+
+.msc-split_scene_right:after {
+  content: "split_scene_right";
+}
+
+.msc-split_scene_up:after {
+  content: "split_scene_up";
+}
+
 .msc-splitscreen:after {
   content: "splitscreen";
 }
@@ -11940,18 +12028,6 @@
 
 .msc-stay_current_landscape:after {
   content: "stay_current_landscape";
-}
-
-.msc-stay_current_portrait:after {
-  content: "stay_current_portrait";
-}
-
-.msc-stay_primary_landscape:after {
-  content: "stay_primary_landscape";
-}
-
-.msc-stay_primary_portrait:after {
-  content: "stay_primary_portrait";
 }
 
 .msc-steering_wheel_heat:after {
@@ -12432,6 +12508,10 @@
 
 .msc-tab_recent:after {
   content: "tab_recent";
+}
+
+.msc-tab_search:after {
+  content: "tab_search";
 }
 
 .msc-tab_unselected:after {
@@ -13442,6 +13522,10 @@
   content: "verified";
 }
 
+.msc-verified_off:after {
+  content: "verified_off";
+}
+
 .msc-verified_user:after {
   content: "verified_user";
 }
@@ -13812,6 +13896,10 @@
 
 .msc-watch:after {
   content: "watch";
+}
+
+.msc-watch_arrow:after {
+  content: "watch_arrow";
 }
 
 .msc-watch_button_press:after {

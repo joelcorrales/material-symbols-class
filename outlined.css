@@ -5,7 +5,9 @@
   font-display: block;
   src: url("./material-symbols-outlined.woff2") format("woff2");
 }
-.material-symbols-outlined, .msc {
+.material-symbols-outlined, .msc,
+.msc-o,
+.msc-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
@@ -23,6 +25,8 @@
   font-feature-settings: "liga";
 }
 
-.msc {
+.msc,
+.msc-o,
+.msc-outlined {
   font-size: 1.25em;
 }

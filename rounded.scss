@@ -1,5 +1,6 @@
 @use "./node_modules/material-symbols/rounded.scss";
 
+.msc-r,
 .msc-rounded {
   @extend .material-symbols-rounded;
   font-size: 1.25em;

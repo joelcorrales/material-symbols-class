@@ -3567,7 +3567,7 @@
   function symbolClick(e) {
     document.querySelector(
       "#display-symbol"
-    ).className = `msc msc-${e} !text-6xl`;
+    ).className = `msc-outlined msc-${e} !text-6xl`;
 
     updateClassDisplay();
   }
@@ -3575,7 +3575,7 @@
   function renderIcon(icon) {
     return `
     <div symbol-data="${icon}" class="symbol-wrapper flex flex-col items-center p-4 outline-2 outline-indigo-900 rounded-md cursor-pointer ">
-      <i symbol-data="${icon}" class="msc msc-${icon} !text-5xl"></i>
+      <i symbol-data="${icon}" class="msc-outlined msc-${icon} !text-5xl"></i>
       <span symbol-data="${icon}" class="text-indigo-900 max-w-[80%] text-ellipsis overflow-hidden">${icon}</span>
     </div>`;
   }
@@ -3609,7 +3609,7 @@
     const selected = e.target.value;
 
     const classMap = {
-      outlined: "msc",
+      outlined: "msc-outlined",
       rounded: "msc-rounded",
       sharp: "msc-sharp",
     };
