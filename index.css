@@ -28,7 +28,7 @@
 .msc,
 .msc-o,
 .msc-outlined {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 @font-face {
@@ -59,7 +59,7 @@
 
 .msc-r,
 .msc-rounded {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 @font-face {
@@ -90,5 +90,5 @@
 
 .msc-s,
 .msc-sharp {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
