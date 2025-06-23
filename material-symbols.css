@@ -326,6 +326,10 @@
   content: "activity_zone";
 }
 
+.msc-acupuncture:after {
+  content: "acupuncture";
+}
+
 .msc-acute:after {
   content: "acute";
 }
@@ -850,6 +854,10 @@
   content: "approval_delegation";
 }
 
+.msc-approval_delegation_off:after {
+  content: "approval_delegation_off";
+}
+
 .msc-apps:after {
   content: "apps";
 }
@@ -1332,6 +1340,10 @@
 
 .msc-badge_critical_battery:after {
   content: "badge_critical_battery";
+}
+
+.msc-badminton:after {
+  content: "badminton";
 }
 
 .msc-bakery_dining:after {
@@ -2542,6 +2554,10 @@
   content: "check_circle";
 }
 
+.msc-check_circle_unread:after {
+  content: "check_circle_unread";
+}
+
 .msc-check_in_out:after {
   content: "check_in_out";
 }
@@ -3692,6 +3708,10 @@
 
 .msc-diamond:after {
   content: "diamond";
+}
+
+.msc-diamond_shine:after {
+  content: "diamond_shine";
 }
 
 .msc-dictionary:after {
@@ -6086,6 +6106,10 @@
   content: "health_and_safety";
 }
 
+.msc-health_cross:after {
+  content: "health_cross";
+}
+
 .msc-health_metrics:after {
   content: "health_metrics";
 }
@@ -7674,6 +7698,10 @@
   content: "masks";
 }
 
+.msc-massage:after {
+  content: "massage";
+}
+
 .msc-match_case:after {
   content: "match_case";
 }
@@ -7878,6 +7906,82 @@
   content: "mms";
 }
 
+.msc-mobile:after {
+  content: "mobile";
+}
+
+.msc-mobile_2:after {
+  content: "mobile_2";
+}
+
+.msc-mobile_3:after {
+  content: "mobile_3";
+}
+
+.msc-mobile_alert:after {
+  content: "mobile_alert";
+}
+
+.msc-mobile_arrow_down:after {
+  content: "mobile_arrow_down";
+}
+
+.msc-mobile_arrow_right:after {
+  content: "mobile_arrow_right";
+}
+
+.msc-mobile_arrow_up_right:after {
+  content: "mobile_arrow_up_right";
+}
+
+.msc-mobile_block:after {
+  content: "mobile_block";
+}
+
+.msc-mobile_camera:after {
+  content: "mobile_camera";
+}
+
+.msc-mobile_camera_front:after {
+  content: "mobile_camera_front";
+}
+
+.msc-mobile_camera_rear:after {
+  content: "mobile_camera_rear";
+}
+
+.msc-mobile_cancel:after {
+  content: "mobile_cancel";
+}
+
+.msc-mobile_cast:after {
+  content: "mobile_cast";
+}
+
+.msc-mobile_charge:after {
+  content: "mobile_charge";
+}
+
+.msc-mobile_chat:after {
+  content: "mobile_chat";
+}
+
+.msc-mobile_check:after {
+  content: "mobile_check";
+}
+
+.msc-mobile_code:after {
+  content: "mobile_code";
+}
+
+.msc-mobile_dots:after {
+  content: "mobile_dots";
+}
+
+.msc-mobile_gear:after {
+  content: "mobile_gear";
+}
+
 .msc-mobile_hand:after {
   content: "mobile_hand";
 }
@@ -7894,12 +7998,48 @@
   content: "mobile_hand_off";
 }
 
+.msc-mobile_info:after {
+  content: "mobile_info";
+}
+
+.msc-mobile_landscape:after {
+  content: "mobile_landscape";
+}
+
+.msc-mobile_layout:after {
+  content: "mobile_layout";
+}
+
+.msc-mobile_lock_landscape:after {
+  content: "mobile_lock_landscape";
+}
+
+.msc-mobile_lock_portrait:after {
+  content: "mobile_lock_portrait";
+}
+
 .msc-mobile_loupe:after {
   content: "mobile_loupe";
 }
 
+.msc-mobile_menu:after {
+  content: "mobile_menu";
+}
+
 .msc-mobile_off:after {
   content: "mobile_off";
+}
+
+.msc-mobile_question:after {
+  content: "mobile_question";
+}
+
+.msc-mobile_rotate:after {
+  content: "mobile_rotate";
+}
+
+.msc-mobile_rotate_lock:after {
+  content: "mobile_rotate_lock";
 }
 
 .msc-mobile_screen_share:after {
@@ -7910,12 +8050,56 @@
   content: "mobile_screensaver";
 }
 
+.msc-mobile_sensor_hi:after {
+  content: "mobile_sensor_hi";
+}
+
+.msc-mobile_sensor_lo:after {
+  content: "mobile_sensor_lo";
+}
+
+.msc-mobile_share:after {
+  content: "mobile_share";
+}
+
+.msc-mobile_share_stack:after {
+  content: "mobile_share_stack";
+}
+
+.msc-mobile_sound:after {
+  content: "mobile_sound";
+}
+
 .msc-mobile_sound_2:after {
   content: "mobile_sound_2";
 }
 
+.msc-mobile_sound_off:after {
+  content: "mobile_sound_off";
+}
+
 .msc-mobile_speaker:after {
   content: "mobile_speaker";
+}
+
+.msc-mobile_text:after {
+  content: "mobile_text";
+}
+
+.msc-mobile_text_2:after {
+  content: "mobile_text_2";
+}
+
+.msc-mobile_ticket:after {
+  content: "mobile_ticket";
+}
+
+.msc-mobile_vibrate:after {
+  content: "mobile_vibrate";
+}
+
+.msc-mobile_wrench:after {
+  content: "mobile_wrench";
 }
 
 .msc-mobiledata_off:after {
@@ -8202,6 +8386,10 @@
   content: "movie_off";
 }
 
+.msc-movie_speaker:after {
+  content: "movie_speaker";
+}
+
 .msc-moving:after {
   content: "moving";
 }
@@ -8244,6 +8432,10 @@
 
 .msc-music_cast:after {
   content: "music_cast";
+}
+
+.msc-music_history:after {
+  content: "music_history";
 }
 
 .msc-music_note:after {
@@ -9018,6 +9210,10 @@
   content: "padding";
 }
 
+.msc-padel:after {
+  content: "padel";
+}
+
 .msc-page_control:after {
   content: "page_control";
 }
@@ -9152,6 +9348,10 @@
 
 .msc-pause_presentation:after {
   content: "pause_presentation";
+}
+
+.msc-payment_arrow_down:after {
+  content: "payment_arrow_down";
 }
 
 .msc-payments:after {
@@ -9478,6 +9678,10 @@
   content: "piano_off";
 }
 
+.msc-pickleball:after {
+  content: "pickleball";
+}
+
 .msc-picture_as_pdf:after {
   content: "picture_as_pdf";
 }
@@ -9580,6 +9784,10 @@
 
 .msc-plagiarism:after {
   content: "plagiarism";
+}
+
+.msc-plane_contrails:after {
+  content: "plane_contrails";
 }
 
 .msc-planet:after {
@@ -11160,6 +11368,10 @@
 
 .msc-shield_question:after {
   content: "shield_question";
+}
+
+.msc-shield_toggle:after {
+  content: "shield_toggle";
 }
 
 .msc-shield_watch:after {
@@ -12890,6 +13102,10 @@
   content: "timer";
 }
 
+.msc-timer_1:after {
+  content: "timer_1";
+}
+
 .msc-timer_10:after {
   content: "timer_10";
 }
@@ -12900,6 +13116,10 @@
 
 .msc-timer_10_select:after {
   content: "timer_10_select";
+}
+
+.msc-timer_2:after {
+  content: "timer_2";
 }
 
 .msc-timer_3:after {
@@ -12984,6 +13204,10 @@
 
 .msc-tonality:after {
   content: "tonality";
+}
+
+.msc-tonality_2:after {
+  content: "tonality_2";
 }
 
 .msc-toolbar:after {
@@ -13732,6 +13956,10 @@
 
 .msc-vignette:after {
   content: "vignette";
+}
+
+.msc-vignette_2:after {
+  content: "vignette_2";
 }
 
 .msc-villa:after {
