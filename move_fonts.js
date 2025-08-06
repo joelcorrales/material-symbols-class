@@ -14,6 +14,6 @@ for (let index = 0; index < fonts.length; index++) {
   console.log(dest + fonts[index]);
   fs.copyFile(source + fonts[index], dest + fonts[index], (err) => {
     if (err) throw err;
-    console.log("fonts[i] copied to destination");
+    console.log(fonts[index],"copied to destination");
   });
 }

@@ -350,10 +350,6 @@
   content: "ad_off";
 }
 
-.msc-ad_units:after {
-  content: "ad_units";
-}
-
 .msc-adaptive_audio_mic:after {
   content: "adaptive_audio_mic";
 }
@@ -486,10 +482,6 @@
   content: "add_to_drive";
 }
 
-.msc-add_to_home_screen:after {
-  content: "add_to_home_screen";
-}
-
 .msc-add_to_queue:after {
   content: "add_to_queue";
 }
@@ -596,10 +588,6 @@
 
 .msc-airport_shuttle:after {
   content: "airport_shuttle";
-}
-
-.msc-airware:after {
-  content: "airware";
 }
 
 .msc-airwave:after {
@@ -802,10 +790,6 @@
   content: "animation";
 }
 
-.msc-aod:after {
-  content: "aod";
-}
-
 .msc-aod_tablet:after {
   content: "aod_tablet";
 }
@@ -832,10 +816,6 @@
 
 .msc-app_badging:after {
   content: "app_badging";
-}
-
-.msc-app_blocking:after {
-  content: "app_blocking";
 }
 
 .msc-app_registration:after {
@@ -1218,6 +1198,10 @@
   content: "auto_stories";
 }
 
+.msc-auto_stories_off:after {
+  content: "auto_stories_off";
+}
+
 .msc-auto_towing:after {
   content: "auto_towing";
 }
@@ -1394,6 +1378,10 @@
   content: "batch_prediction";
 }
 
+.msc-bath_bedrock:after {
+  content: "bath_bedrock";
+}
+
 .msc-bath_outdoor:after {
   content: "bath_outdoor";
 }
@@ -1404,6 +1392,10 @@
 
 .msc-bath_public_large:after {
   content: "bath_public_large";
+}
+
+.msc-bath_soak:after {
+  content: "bath_soak";
 }
 
 .msc-bathroom:after {
@@ -1622,6 +1614,10 @@
   content: "beenhere";
 }
 
+.msc-beer_meal:after {
+  content: "beer_meal";
+}
+
 .msc-bento:after {
   content: "bento";
 }
@@ -1780,10 +1776,6 @@
 
 .msc-book_6:after {
   content: "book_6";
-}
-
-.msc-book_online:after {
-  content: "book_online";
 }
 
 .msc-book_ribbon:after {
@@ -2150,6 +2142,10 @@
   content: "calendar_clock";
 }
 
+.msc-calendar_meal:after {
+  content: "calendar_meal";
+}
+
 .msc-calendar_month:after {
   content: "calendar_month";
 }
@@ -2218,20 +2214,12 @@
   content: "camera";
 }
 
-.msc-camera_front:after {
-  content: "camera_front";
-}
-
 .msc-camera_indoor:after {
   content: "camera_indoor";
 }
 
 .msc-camera_outdoor:after {
   content: "camera_outdoor";
-}
-
-.msc-camera_rear:after {
-  content: "camera_rear";
 }
 
 .msc-camera_roll:after {
@@ -2302,8 +2290,16 @@
   content: "car_defrost_low_right";
 }
 
+.msc-car_defrost_mid_left:after {
+  content: "car_defrost_mid_left";
+}
+
 .msc-car_defrost_mid_low_left:after {
   content: "car_defrost_mid_low_left";
+}
+
+.msc-car_defrost_mid_low_right:after {
+  content: "car_defrost_mid_low_right";
 }
 
 .msc-car_defrost_mid_right:after {
@@ -2482,6 +2478,18 @@
   content: "chair_alt";
 }
 
+.msc-chair_counter:after {
+  content: "chair_counter";
+}
+
+.msc-chair_fireplace:after {
+  content: "chair_fireplace";
+}
+
+.msc-chair_umbrella:after {
+  content: "chair_umbrella";
+}
+
 .msc-chalet:after {
   content: "chalet";
 }
@@ -2496,10 +2504,6 @@
 
 .msc-charger:after {
   content: "charger";
-}
-
-.msc-charging_station:after {
-  content: "charging_station";
 }
 
 .msc-chart_data:after {
@@ -2606,8 +2610,40 @@
   content: "chess";
 }
 
+.msc-chess_bishop:after {
+  content: "chess_bishop";
+}
+
+.msc-chess_bishop_2:after {
+  content: "chess_bishop_2";
+}
+
+.msc-chess_king:after {
+  content: "chess_king";
+}
+
+.msc-chess_king_2:after {
+  content: "chess_king_2";
+}
+
+.msc-chess_knight:after {
+  content: "chess_knight";
+}
+
 .msc-chess_pawn:after {
   content: "chess_pawn";
+}
+
+.msc-chess_pawn_2:after {
+  content: "chess_pawn_2";
+}
+
+.msc-chess_queen:after {
+  content: "chess_queen";
+}
+
+.msc-chess_rook:after {
+  content: "chess_rook";
 }
 
 .msc-chevron_backward:after {
@@ -3634,10 +3670,6 @@
   content: "developer_guide";
 }
 
-.msc-developer_mode:after {
-  content: "developer_mode";
-}
-
 .msc-developer_mode_tv:after {
   content: "developer_mode_tv";
 }
@@ -3652,10 +3684,6 @@
 
 .msc-device_thermostat:after {
   content: "device_thermostat";
-}
-
-.msc-device_unknown:after {
-  content: "device_unknown";
 }
 
 .msc-devices:after {
@@ -3728,6 +3756,18 @@
 
 .msc-digital_wellbeing:after {
   content: "digital_wellbeing";
+}
+
+.msc-dine_heart:after {
+  content: "dine_heart";
+}
+
+.msc-dine_in:after {
+  content: "dine_in";
+}
+
+.msc-dine_lamp:after {
+  content: "dine_lamp";
 }
 
 .msc-dining:after {
@@ -3872,10 +3912,6 @@
 
 .msc-do_not_touch:after {
   content: "do_not_touch";
-}
-
-.msc-dock:after {
-  content: "dock";
 }
 
 .msc-dock_to_bottom:after {
@@ -4066,6 +4102,14 @@
   content: "drive_folder_upload";
 }
 
+.msc-drone:after {
+  content: "drone";
+}
+
+.msc-drone_2:after {
+  content: "drone_2";
+}
+
 .msc-dropdown:after {
   content: "dropdown";
 }
@@ -4172,14 +4216,6 @@
 
 .msc-eda:after {
   content: "eda";
-}
-
-.msc-edgesensor_high:after {
-  content: "edgesensor_high";
-}
-
-.msc-edgesensor_low:after {
-  content: "edgesensor_low";
 }
 
 .msc-edit:after {
@@ -4646,6 +4682,10 @@
   content: "eyeglasses_2";
 }
 
+.msc-eyeglasses_2_sound:after {
+  content: "eyeglasses_2_sound";
+}
+
 .msc-face:after {
   content: "face";
 }
@@ -4960,10 +5000,6 @@
 
 .msc-filter_frames:after {
   content: "filter_frames";
-}
-
-.msc-filter_hdr:after {
-  content: "filter_hdr";
 }
 
 .msc-filter_list:after {
@@ -5690,12 +5726,20 @@
   content: "garage";
 }
 
+.msc-garage_check:after {
+  content: "garage_check";
+}
+
 .msc-garage_door:after {
   content: "garage_door";
 }
 
 .msc-garage_home:after {
   content: "garage_home";
+}
+
+.msc-garage_money:after {
+  content: "garage_money";
 }
 
 .msc-garden_cart:after {
@@ -5990,6 +6034,14 @@
   content: "hand_gesture_off";
 }
 
+.msc-hand_meal:after {
+  content: "hand_meal";
+}
+
+.msc-hand_package:after {
+  content: "hand_package";
+}
+
 .msc-handheld_controller:after {
   content: "handheld_controller";
 }
@@ -6166,6 +6218,10 @@
   content: "heart_plus";
 }
 
+.msc-heart_smile:after {
+  content: "heart_smile";
+}
+
 .msc-heat:after {
   content: "heat";
 }
@@ -6220,6 +6276,10 @@
 
 .msc-hide_source:after {
   content: "hide_source";
+}
+
+.msc-high_chair:after {
+  content: "high_chair";
 }
 
 .msc-high_density:after {
@@ -6740,6 +6800,14 @@
 
 .msc-jamboard_kiosk:after {
   content: "jamboard_kiosk";
+}
+
+.msc-japanese_curry:after {
+  content: "japanese_curry";
+}
+
+.msc-japanese_flag:after {
+  content: "japanese_flag";
 }
 
 .msc-javascript:after {
@@ -7634,6 +7702,14 @@
   content: "map";
 }
 
+.msc-map_pin_heart:after {
+  content: "map_pin_heart";
+}
+
+.msc-map_pin_review:after {
+  content: "map_pin_review";
+}
+
 .msc-map_search:after {
   content: "map_search";
 }
@@ -7792,6 +7868,10 @@
 
 .msc-menu_book:after {
   content: "menu_book";
+}
+
+.msc-menu_book_2:after {
+  content: "menu_book_2";
 }
 
 .msc-menu_open:after {
@@ -8042,10 +8122,6 @@
   content: "mobile_rotate_lock";
 }
 
-.msc-mobile_screen_share:after {
-  content: "mobile_screen_share";
-}
-
 .msc-mobile_screensaver:after {
   content: "mobile_screensaver";
 }
@@ -8230,6 +8306,10 @@
   content: "moped";
 }
 
+.msc-moped_package:after {
+  content: "moped_package";
+}
+
 .msc-more:after {
   content: "more";
 }
@@ -8308,6 +8388,10 @@
 
 .msc-mountain_flag:after {
   content: "mountain_flag";
+}
+
+.msc-mountain_steam:after {
+  content: "mountain_steam";
 }
 
 .msc-mouse:after {
@@ -8574,6 +8658,26 @@
   content: "nest_eco_leaf";
 }
 
+.msc-nest_farsight_cool:after {
+  content: "nest_farsight_cool";
+}
+
+.msc-nest_farsight_dual:after {
+  content: "nest_farsight_dual";
+}
+
+.msc-nest_farsight_eco:after {
+  content: "nest_farsight_eco";
+}
+
+.msc-nest_farsight_heat:after {
+  content: "nest_farsight_heat";
+}
+
+.msc-nest_farsight_seasonal:after {
+  content: "nest_farsight_seasonal";
+}
+
 .msc-nest_farsight_weather:after {
   content: "nest_farsight_weather";
 }
@@ -8604,10 +8708,6 @@
 
 .msc-nest_protect:after {
   content: "nest_protect";
-}
-
-.msc-nest_remote:after {
-  content: "nest_remote";
 }
 
 .msc-nest_remote_comfort_sensor:after {
@@ -9018,12 +9118,12 @@
   content: "offline_pin_off";
 }
 
-.msc-offline_share:after {
-  content: "offline_share";
-}
-
 .msc-oil_barrel:after {
   content: "oil_barrel";
+}
+
+.msc-okonomiyaki:after {
+  content: "okonomiyaki";
 }
 
 .msc-on_device_training:after {
@@ -9294,6 +9394,18 @@
   content: "park";
 }
 
+.msc-parking_meter:after {
+  content: "parking_meter";
+}
+
+.msc-parking_sign:after {
+  content: "parking_sign";
+}
+
+.msc-parking_valet:after {
+  content: "parking_valet";
+}
+
 .msc-partly_cloudy_day:after {
   content: "partly_cloudy_day";
 }
@@ -9352,6 +9464,10 @@
 
 .msc-payment_arrow_down:after {
   content: "payment_arrow_down";
+}
+
+.msc-payment_card:after {
+  content: "payment_card";
 }
 
 .msc-payments:after {
@@ -9418,10 +9534,6 @@
   content: "perm_data_setting";
 }
 
-.msc-perm_device_information:after {
-  content: "perm_device_information";
-}
-
 .msc-perm_media:after {
   content: "perm_media";
 }
@@ -9484,6 +9596,10 @@
 
 .msc-person_edit:after {
   content: "person_edit";
+}
+
+.msc-person_heart:after {
+  content: "person_heart";
 }
 
 .msc-person_off:after {
@@ -9558,10 +9674,6 @@
   content: "phishing";
 }
 
-.msc-phone_android:after {
-  content: "phone_android";
-}
-
 .msc-phone_bluetooth_speaker:after {
   content: "phone_bluetooth_speaker";
 }
@@ -9586,10 +9698,6 @@
   content: "phone_in_talk";
 }
 
-.msc-phone_iphone:after {
-  content: "phone_iphone";
-}
-
 .msc-phone_locked:after {
   content: "phone_locked";
 }
@@ -9600,22 +9708,6 @@
 
 .msc-phone_paused:after {
   content: "phone_paused";
-}
-
-.msc-phonelink_erase:after {
-  content: "phonelink_erase";
-}
-
-.msc-phonelink_ring:after {
-  content: "phonelink_ring";
-}
-
-.msc-phonelink_ring_off:after {
-  content: "phonelink_ring_off";
-}
-
-.msc-phonelink_setup:after {
-  content: "phonelink_setup";
 }
 
 .msc-photo:after {
@@ -9824,6 +9916,14 @@
 
 .msc-play_pause:after {
   content: "play_pause";
+}
+
+.msc-playground:after {
+  content: "playground";
+}
+
+.msc-playground_2:after {
+  content: "playground_2";
 }
 
 .msc-playing_cards:after {
@@ -10478,6 +10578,10 @@
   content: "reset_brightness";
 }
 
+.msc-reset_exposure:after {
+  content: "reset_exposure";
+}
+
 .msc-reset_focus:after {
   content: "reset_focus";
 }
@@ -10838,24 +10942,8 @@
   content: "scoreboard";
 }
 
-.msc-screen_lock_landscape:after {
-  content: "screen_lock_landscape";
-}
-
-.msc-screen_lock_portrait:after {
-  content: "screen_lock_portrait";
-}
-
-.msc-screen_lock_rotation:after {
-  content: "screen_lock_rotation";
-}
-
 .msc-screen_record:after {
   content: "screen_record";
-}
-
-.msc-screen_rotation:after {
-  content: "screen_rotation";
 }
 
 .msc-screen_rotation_alt:after {
@@ -10872,10 +10960,6 @@
 
 .msc-screen_share:after {
   content: "screen_share";
-}
-
-.msc-screenshot:after {
-  content: "screenshot";
 }
 
 .msc-screenshot_frame:after {
@@ -10990,14 +11074,6 @@
   content: "security_key";
 }
 
-.msc-security_update_good:after {
-  content: "security_update_good";
-}
-
-.msc-security_update_warning:after {
-  content: "security_update_warning";
-}
-
 .msc-segment:after {
   content: "segment";
 }
@@ -11056,10 +11132,6 @@
 
 .msc-send_time_extension:after {
   content: "send_time_extension";
-}
-
-.msc-send_to_mobile:after {
-  content: "send_to_mobile";
 }
 
 .msc-sensor_door:after {
@@ -11192,10 +11264,6 @@
 
 .msc-settings_brightness:after {
   content: "settings_brightness";
-}
-
-.msc-settings_cell:after {
-  content: "settings_cell";
 }
 
 .msc-settings_cinematic_blur:after {
@@ -11482,6 +11550,10 @@
   content: "sign_language";
 }
 
+.msc-sign_language_2:after {
+  content: "sign_language_2";
+}
+
 .msc-signal_cellular_0_bar:after {
   content: "signal_cellular_0_bar";
 }
@@ -11690,20 +11762,8 @@
   content: "smart_outlet";
 }
 
-.msc-smart_screen:after {
-  content: "smart_screen";
-}
-
 .msc-smart_toy:after {
   content: "smart_toy";
-}
-
-.msc-smartphone:after {
-  content: "smartphone";
-}
-
-.msc-smartphone_camera:after {
-  content: "smartphone_camera";
 }
 
 .msc-smb_share:after {
@@ -12238,10 +12298,6 @@
   content: "stat_minus_3";
 }
 
-.msc-stay_current_landscape:after {
-  content: "stay_current_landscape";
-}
-
 .msc-steering_wheel_heat:after {
   content: "steering_wheel_heat";
 }
@@ -12340,10 +12396,6 @@
 
 .msc-stream:after {
   content: "stream";
-}
-
-.msc-stream_apps:after {
-  content: "stream_apps";
 }
 
 .msc-streetview:after {
@@ -12448,6 +12500,10 @@
 
 .msc-subway:after {
   content: "subway";
+}
+
+.msc-subway_walk:after {
+  content: "subway_walk";
 }
 
 .msc-summarize:after {
@@ -12670,12 +12726,12 @@
   content: "sync_saved_locally";
 }
 
-.msc-syringe:after {
-  content: "syringe";
+.msc-sync_saved_locally_off:after {
+  content: "sync_saved_locally_off";
 }
 
-.msc-system_update:after {
-  content: "system_update";
+.msc-syringe:after {
+  content: "syringe";
 }
 
 .msc-system_update_alt:after {
@@ -12762,6 +12818,10 @@
   content: "table_lamp";
 }
 
+.msc-table_large:after {
+  content: "table_large";
+}
+
 .msc-table_restaurant:after {
   content: "table_restaurant";
 }
@@ -12816,10 +12876,6 @@
 
 .msc-tamper_detection_on:after {
   content: "tamper_detection_on";
-}
-
-.msc-tap_and_play:after {
-  content: "tap_and_play";
 }
 
 .msc-tapas:after {
@@ -13402,6 +13458,10 @@
   content: "translate";
 }
 
+.msc-translate_indic:after {
+  content: "translate_indic";
+}
+
 .msc-transportation:after {
   content: "transportation";
 }
@@ -13782,10 +13842,6 @@
   content: "vertical_split";
 }
 
-.msc-vibration:after {
-  content: "vibration";
-}
-
 .msc-video_call:after {
   content: "video_call";
 }
@@ -14120,6 +14176,10 @@
 
 .msc-wash:after {
   content: "wash";
+}
+
+.msc-washoku:after {
+  content: "washoku";
 }
 
 .msc-watch:after {
@@ -14520,6 +14580,10 @@
 
 .msc-yard:after {
   content: "yard";
+}
+
+.msc-yoshoku:after {
+  content: "yoshoku";
 }
 
 .msc-your_trips:after {
