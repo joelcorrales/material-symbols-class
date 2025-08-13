@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SECRET_PAT }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -57,8 +57,3 @@ jobs:
           name: "v${{ steps.check.outputs.latest }}"
           body: "Automated update to material-symbols v${{ steps.check.outputs.latest }}"
 
-      - name: Trigger publish workflow
-        run: |
-          gh workflow run publish.yml --ref main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
