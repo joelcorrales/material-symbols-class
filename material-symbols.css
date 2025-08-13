@@ -782,6 +782,110 @@
   content: "android";
 }
 
+.msc-android_cell_4_bar:after {
+  content: "android_cell_4_bar";
+}
+
+.msc-android_cell_4_bar_alert:after {
+  content: "android_cell_4_bar_alert";
+}
+
+.msc-android_cell_4_bar_off:after {
+  content: "android_cell_4_bar_off";
+}
+
+.msc-android_cell_4_bar_plus:after {
+  content: "android_cell_4_bar_plus";
+}
+
+.msc-android_cell_5_bar:after {
+  content: "android_cell_5_bar";
+}
+
+.msc-android_cell_5_bar_alert:after {
+  content: "android_cell_5_bar_alert";
+}
+
+.msc-android_cell_5_bar_off:after {
+  content: "android_cell_5_bar_off";
+}
+
+.msc-android_cell_5_bar_plus:after {
+  content: "android_cell_5_bar_plus";
+}
+
+.msc-android_cell_dual_4_bar:after {
+  content: "android_cell_dual_4_bar";
+}
+
+.msc-android_cell_dual_4_bar_alert:after {
+  content: "android_cell_dual_4_bar_alert";
+}
+
+.msc-android_cell_dual_4_bar_plus:after {
+  content: "android_cell_dual_4_bar_plus";
+}
+
+.msc-android_cell_dual_5_bar:after {
+  content: "android_cell_dual_5_bar";
+}
+
+.msc-android_cell_dual_5_bar_alert:after {
+  content: "android_cell_dual_5_bar_alert";
+}
+
+.msc-android_cell_dual_5_bar_plus:after {
+  content: "android_cell_dual_5_bar_plus";
+}
+
+.msc-android_wifi_3_bar:after {
+  content: "android_wifi_3_bar";
+}
+
+.msc-android_wifi_3_bar_alert:after {
+  content: "android_wifi_3_bar_alert";
+}
+
+.msc-android_wifi_3_bar_lock:after {
+  content: "android_wifi_3_bar_lock";
+}
+
+.msc-android_wifi_3_bar_off:after {
+  content: "android_wifi_3_bar_off";
+}
+
+.msc-android_wifi_3_bar_plus:after {
+  content: "android_wifi_3_bar_plus";
+}
+
+.msc-android_wifi_3_bar_question:after {
+  content: "android_wifi_3_bar_question";
+}
+
+.msc-android_wifi_4_bar:after {
+  content: "android_wifi_4_bar";
+}
+
+.msc-android_wifi_4_bar_alert:after {
+  content: "android_wifi_4_bar_alert";
+}
+
+.msc-android_wifi_4_bar_lock:after {
+  content: "android_wifi_4_bar_lock";
+}
+
+.msc-android_wifi_4_bar_off:after {
+  content: "android_wifi_4_bar_off";
+}
+
+.msc-android_wifi_4_bar_plus:after {
+  content: "android_wifi_4_bar_plus";
+}
+
+.msc-android_wifi_4_bar_question:after {
+  content: "android_wifi_4_bar_question";
+}
+
 .msc-animated_images:after {
   content: "animated_images";
 }
@@ -988,6 +1092,18 @@
 
 .msc-arrow_selector_tool:after {
   content: "arrow_selector_tool";
+}
+
+.msc-arrow_shape_up:after {
+  content: "arrow_shape_up";
+}
+
+.msc-arrow_shape_up_stack:after {
+  content: "arrow_shape_up_stack";
+}
+
+.msc-arrow_shape_up_stack_2:after {
+  content: "arrow_shape_up_stack_2";
 }
 
 .msc-arrow_split:after {
@@ -1254,6 +1370,10 @@
   content: "avg_time";
 }
 
+.msc-award_meal:after {
+  content: "award_meal";
+}
+
 .msc-award_star:after {
   content: "award_star";
 }
@@ -1472,6 +1592,58 @@
 
 .msc-battery_android_bolt:after {
   content: "battery_android_bolt";
+}
+
+.msc-battery_android_frame_1:after {
+  content: "battery_android_frame_1";
+}
+
+.msc-battery_android_frame_2:after {
+  content: "battery_android_frame_2";
+}
+
+.msc-battery_android_frame_3:after {
+  content: "battery_android_frame_3";
+}
+
+.msc-battery_android_frame_4:after {
+  content: "battery_android_frame_4";
+}
+
+.msc-battery_android_frame_5:after {
+  content: "battery_android_frame_5";
+}
+
+.msc-battery_android_frame_6:after {
+  content: "battery_android_frame_6";
+}
+
+.msc-battery_android_frame_alert:after {
+  content: "battery_android_frame_alert";
+}
+
+.msc-battery_android_frame_bolt:after {
+  content: "battery_android_frame_bolt";
+}
+
+.msc-battery_android_frame_full:after {
+  content: "battery_android_frame_full";
+}
+
+.msc-battery_android_frame_plus:after {
+  content: "battery_android_frame_plus";
+}
+
+.msc-battery_android_frame_question:after {
+  content: "battery_android_frame_question";
+}
+
+.msc-battery_android_frame_share:after {
+  content: "battery_android_frame_share";
+}
+
+.msc-battery_android_frame_shield:after {
+  content: "battery_android_frame_shield";
 }
 
 .msc-battery_android_full:after {
@@ -1958,6 +2130,10 @@
   content: "brick";
 }
 
+.msc-briefcase_meal:after {
+  content: "briefcase_meal";
+}
+
 .msc-brightness_1:after {
   content: "brightness_1";
 }
@@ -2054,6 +2230,10 @@
   content: "bubbles";
 }
 
+.msc-bucket_check:after {
+  content: "bucket_check";
+}
+
 .msc-bug_report:after {
   content: "bug_report";
 }
@@ -2138,12 +2318,24 @@
   content: "calendar_apps_script";
 }
 
+.msc-calendar_check:after {
+  content: "calendar_check";
+}
+
 .msc-calendar_clock:after {
   content: "calendar_clock";
 }
 
+.msc-calendar_lock:after {
+  content: "calendar_lock";
+}
+
 .msc-calendar_meal:after {
   content: "calendar_meal";
+}
+
+.msc-calendar_meal_2:after {
+  content: "calendar_meal_2";
 }
 
 .msc-calendar_month:after {
@@ -2670,6 +2862,10 @@
   content: "child_friendly";
 }
 
+.msc-child_hat:after {
+  content: "child_hat";
+}
+
 .msc-chip_extraction:after {
   content: "chip_extraction";
 }
@@ -3116,6 +3312,10 @@
 
 .msc-controller_gen:after {
   content: "controller_gen";
+}
+
+.msc-conversation:after {
+  content: "conversation";
 }
 
 .msc-conversion_path:after {
@@ -6022,6 +6222,10 @@
   content: "hallway";
 }
 
+.msc-hanami_dango:after {
+  content: "hanami_dango";
+}
+
 .msc-hand_bones:after {
   content: "hand_bones";
 }
@@ -6614,6 +6818,10 @@
   content: "image_aspect_ratio";
 }
 
+.msc-image_inset:after {
+  content: "image_inset";
+}
+
 .msc-image_search:after {
   content: "image_search";
 }
@@ -6836,6 +7044,10 @@
 
 .msc-jump_to_element:after {
   content: "jump_to_element";
+}
+
+.msc-kanji_alcohol:after {
+  content: "kanji_alcohol";
 }
 
 .msc-kayaking:after {
@@ -7658,6 +7870,10 @@
   content: "mail_off";
 }
 
+.msc-mail_shield:after {
+  content: "mail_shield";
+}
+
 .msc-male:after {
   content: "male";
 }
@@ -7796,6 +8012,14 @@
 
 .msc-maximize:after {
   content: "maximize";
+}
+
+.msc-meal_dinner:after {
+  content: "meal_dinner";
+}
+
+.msc-meal_lunch:after {
+  content: "meal_lunch";
 }
 
 .msc-measuring_tape:after {
@@ -8252,6 +8476,10 @@
 
 .msc-money_off:after {
   content: "money_off";
+}
+
+.msc-money_range:after {
+  content: "money_range";
 }
 
 .msc-monitor:after {
@@ -8918,10 +9146,6 @@
   content: "nightlight";
 }
 
-.msc-nights_stay:after {
-  content: "nights_stay";
-}
-
 .msc-no_accounts:after {
   content: "no_accounts";
 }
@@ -9330,6 +9554,10 @@
   content: "page_info";
 }
 
+.msc-page_menu_ios:after {
+  content: "page_menu_ios";
+}
+
 .msc-pageless:after {
   content: "pageless";
 }
@@ -9390,6 +9618,10 @@
   content: "paragliding";
 }
 
+.msc-parent_child_dining:after {
+  content: "parent_child_dining";
+}
+
 .msc-park:after {
   content: "park";
 }
@@ -9416,6 +9648,10 @@
 
 .msc-partner_exchange:after {
   content: "partner_exchange";
+}
+
+.msc-partner_heart:after {
+  content: "partner_heart";
 }
 
 .msc-partner_reports:after {
@@ -9516,6 +9752,10 @@
 
 .msc-percent:after {
   content: "percent";
+}
+
+.msc-percent_discount:after {
+  content: "percent_discount";
 }
 
 .msc-pergola:after {
@@ -10630,6 +10870,10 @@
   content: "responsive_layout";
 }
 
+.msc-rest_area:after {
+  content: "rest_area";
+}
+
 .msc-restart_alt:after {
   content: "restart_alt";
 }
@@ -11030,6 +11274,10 @@
   content: "search_check_2";
 }
 
+.msc-search_gear:after {
+  content: "search_gear";
+}
+
 .msc-search_hands_free:after {
   content: "search_hands_free";
 }
@@ -11326,6 +11574,10 @@
   content: "settings_remote";
 }
 
+.msc-settings_seating:after {
+  content: "settings_seating";
+}
+
 .msc-settings_slow_motion:after {
   content: "settings_slow_motion";
 }
@@ -11396,6 +11648,10 @@
 
 .msc-share_windows:after {
   content: "share_windows";
+}
+
+.msc-shaved_ice:after {
+  content: "shaved_ice";
 }
 
 .msc-sheets_rtl:after {
@@ -11814,6 +12070,10 @@
   content: "soap";
 }
 
+.msc-soba:after {
+  content: "soba";
+}
+
 .msc-social_distance:after {
   content: "social_distance";
 }
@@ -11824,6 +12084,10 @@
 
 .msc-solar_power:after {
   content: "solar_power";
+}
+
+.msc-solo_dining:after {
+  content: "solo_dining";
 }
 
 .msc-sort:after {
@@ -12834,6 +13098,10 @@
   content: "table_rows_narrow";
 }
 
+.msc-table_sign:after {
+  content: "table_sign";
+}
+
 .msc-table_view:after {
   content: "table_view";
 }
@@ -12870,6 +13138,10 @@
   content: "takeout_dining";
 }
 
+.msc-takeout_dining_2:after {
+  content: "takeout_dining_2";
+}
+
 .msc-tamper_detection_off:after {
   content: "tamper_detection_off";
 }
@@ -12892,6 +13164,10 @@
 
 .msc-task_alt:after {
   content: "task_alt";
+}
+
+.msc-tatami_seat:after {
+  content: "tatami_seat";
 }
 
 .msc-taunt:after {
@@ -13112,6 +13388,10 @@
 
 .msc-thumbnail_bar:after {
   content: "thumbnail_bar";
+}
+
+.msc-thumbs_up_double:after {
+  content: "thumbs_up_double";
 }
 
 .msc-thumbs_up_down:after {
@@ -13620,6 +13900,10 @@
 
 .msc-u_turn_right:after {
   content: "u_turn_right";
+}
+
+.msc-udon:after {
+  content: "udon";
 }
 
 .msc-ulna_radius:after {
@@ -14510,6 +14794,10 @@
   content: "window_sensor";
 }
 
+.msc-windshield_defrost_auto:after {
+  content: "windshield_defrost_auto";
+}
+
 .msc-windshield_defrost_front:after {
   content: "windshield_defrost_front";
 }
@@ -14576,6 +14864,10 @@
 
 .msc-wysiwyg:after {
   content: "wysiwyg";
+}
+
+.msc-yakitori:after {
+  content: "yakitori";
 }
 
 .msc-yard:after {
