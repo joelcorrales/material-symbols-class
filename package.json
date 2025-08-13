@@ -7,8 +7,10 @@
     "url": "https://github.com/joelcorrales/material-symbols-class/issues"
   },
   "scripts": {
-    "build:all": "npm run copy:fonts && npm run build:css && npm run build:css:min",
-    "copy:fonts": "node move_fonts",
+    "build:all": "npm run build:css && npm run build:css:min",
+    "import:all": "npm run import:fonts && npm run import:icons",
+    "import:fonts": "node move_fonts",
+    "import:icons": "node update_icons",
     "build:css": "sass --no-source-map --no-error-css ./:./",
     "build:css:min": "sass --style compressed --no-source-map --no-error-css material-symbols.scss:material-symbols.min.css outlined.scss:outlined.min.css rounded.scss:rounded.min.css sharp.scss:sharp.min.css utils.scss:utils.min.css index.scss:index.min.css"
   },

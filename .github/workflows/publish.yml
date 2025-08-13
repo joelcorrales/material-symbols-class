@@ -1,11 +1,12 @@
 name: Publish Package to npmjs
 
 on:
-  push:
+  workflow_dispatch:
+  # push:
     # branches:
     #   - main
-    tags:
-      - v*.*.*
+    # tags:
+    #   - v*.*.*
 
 jobs:
   build:
