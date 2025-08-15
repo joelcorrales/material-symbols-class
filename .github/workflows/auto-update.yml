@@ -9,32 +9,37 @@ permissions:
   contents: write
 
 jobs:
-  update-dep:
+  check-version:
     runs-on: ubuntu-latest
+    outputs:
+      latest: ${{ steps.check.outputs.latest }}
+      current: ${{ steps.check.outputs.current }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.SECRET_PAT }}
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-
-      - name: Check material-symbols version
-        id: check
+      - id: check
         run: |
           LATEST=$(npm view material-symbols version)
           CURRENT=$(node -p "require('./package.json').devDependencies['material-symbols']")
           echo "latest=$LATEST" >> $GITHUB_OUTPUT
           echo "current=$CURRENT" >> $GITHUB_OUTPUT
 
-      - name: Stop if already up-to-date
-        if: steps.check.outputs.latest == steps.check.outputs.current
-        run: echo "Already up-to-date" && exit 0
-
+  update-and-release:
+    needs: check-version
+    if: ${{ needs.check-version.outputs.latest != needs.check-version.outputs.current }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SECRET_PAT }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
       - name: Update material-symbols & run code update script
         run: |
           npm install material-symbols@${{ steps.check.outputs.latest }}
@@ -44,16 +49,14 @@ jobs:
       - name: Commit & tag release
         uses: EndBug/add-and-commit@v9
         with:
-          message: "chore(update): update material-symbols to v${{ steps.check.outputs.latest }}"
+          message: "chore(update): update material-symbols to v${{ needs.check-version.outputs.latest }}"
           default_author: github_actions
           push: true
-          tag: v${{ steps.check.outputs.latest }}
+          tag: v${{ needs.check-version.outputs.latest }}
           tag_push: '--force'
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+          
+      - uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.check.outputs.latest }}
-          name: "v${{ steps.check.outputs.latest }}"
-          body: "Automated update to material-symbols v${{ steps.check.outputs.latest }}"
-
+          tag_name: v${{ needs.check-version.outputs.latest }}
+          name: "v${{ needs.check-version.outputs.latest }}"
+          body: "Automated update to material-symbols v${{ needs.check-version.outputs.latest }}"
