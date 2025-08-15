@@ -19,12 +19,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - id: check
+      - name: Set current and latest versions
+        id: check
         run: |
           LATEST=$(npm view material-symbols version)
           CURRENT=$(node -p "require('./package.json').devDependencies['material-symbols']")
           echo "latest=$LATEST" >> $GITHUB_OUTPUT
           echo "current=$CURRENT" >> $GITHUB_OUTPUT
+          echo $CURRENT
+          echo $LATEST
 
   update-and-release:
     needs: check-version
@@ -42,7 +45,7 @@ jobs:
           cache: npm
       - name: Update material-symbols & run code update script
         run: |
-          npm install material-symbols@${{ steps.check.outputs.latest }}
+          npm install material-symbols@${{ steps.check.outputs.latest }} --save-exact
           npm run import:all
           npm run build:all
 

@@ -16,7 +16,7 @@
   },
   "license": "MIT License",
   "devDependencies": {
-    "material-symbols": "^0.34.1",
+    "material-symbols": "0.34.1",
     "sass": "1.79.6"
   },
   "repository": {
