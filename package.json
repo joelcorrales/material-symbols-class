@@ -1,6 +1,6 @@
 {
   "name": "material-symbols-class",
-  "version": "0.9.6",
+  "version": "0.34.1",
   "description": "material-symbols implementation to use them with classes",
   "author": "Joel Corrales <joel.corrales@outlook.com>",
   "bugs": {
@@ -16,8 +16,8 @@
   },
   "license": "MIT License",
   "devDependencies": {
-    "sass": "1.79.6",
-    "material-symbols": "0.33.0"
+    "material-symbols": "^0.34.1",
+    "sass": "1.79.6"
   },
   "repository": {
     "type": "git",
