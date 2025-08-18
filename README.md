@@ -1,6 +1,11 @@
 # [material-symbols-class](https://github.com/joelcorrales/material-symbols-class)
 
-This is a package that uses [material-symbols](https://github.com/marella/material-symbols/tree/main/material-symbols) to provide a way of using the icons just with classes.
+This package builds on [material-symbols](https://github.com/marella/material-symbols/tree/main/material-symbols) and allows you to use icons directly through CSS classes.
+It also provides additional utilities and variations such as `fill`, `weight`, `spin`, and `fix`(consistent width), all applied via classes.
+
+You can explore the [Homepage](https://joelcorrales.github.io/material-symbols-class/) to browse available icons and preview different utility classes in action.
+
+The library stays up to date automatically with the latest changes from the source repository.
 
 - [Installation](#installation)
 - [Usage](#usage)
