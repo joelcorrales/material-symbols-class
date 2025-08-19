@@ -3659,6 +3659,84 @@
     updateClassDisplay();
   });
 
+  document.querySelector("#weight-select").addEventListener("change", (e) => {
+    const selected = parseInt(e.target.value);
+
+    const classMap = {
+      100: "msc-100",
+      200: "msc-200",
+      300: "msc-300",
+      400: "msc-400",
+      500: "msc-500",
+      600: "msc-600",
+      700: "msc-700",
+      800: "msc-800",
+      900: "msc-900",
+    };
+
+    document
+      .querySelector("#display-symbol")
+      .classList.remove(...Object.values(classMap));
+
+    document.querySelector("#display-symbol").classList.add(classMap[selected]);
+
+    updateClassDisplay();
+  });
+
+  document.querySelector("#fill-select").addEventListener("change", (e) => {
+    const selected = parseInt(e.target.value);
+
+    const classMap = {
+      0: "msc-fill-0",
+      1: "msc-fill-1",
+    };
+
+    document
+      .querySelector("#display-symbol")
+      .classList.remove(...Object.values(classMap));
+
+    document.querySelector("#display-symbol").classList.add(classMap[selected]);
+
+    updateClassDisplay();
+  });
+
+  document.querySelector("#grade-select").addEventListener("change", (e) => {
+    const selected = parseInt(e.target.value);
+
+    const classMap = {
+      '-25': "msc-grade--25",
+      0: "msc-grade-0",
+      200: "msc-grade-200",
+    };
+
+    document
+      .querySelector("#display-symbol")
+      .classList.remove(...Object.values(classMap));
+
+    document.querySelector("#display-symbol").classList.add(classMap[selected]);
+
+    updateClassDisplay();
+  });
+
+  document.querySelector("#optical-size-select").addEventListener("change", (e) => {
+    const selected = parseInt(e.target.value);
+
+    const classMap = {
+      20: "msc-opsz-20",
+      24: "msc-opsz-24",
+      40: "msc-opsz-40",
+      48: "msc-opsz-48",
+    };
+
+    document
+      .querySelector("#display-symbol")
+      .classList.remove(...Object.values(classMap));
+
+    document.querySelector("#display-symbol").classList.add(classMap[selected]);
+
+    updateClassDisplay();
+  });
+
   function updateClassDisplay() {
     const val = document
       .querySelector("#display-symbol")

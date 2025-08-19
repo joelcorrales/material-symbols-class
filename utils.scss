@@ -1,12 +1,38 @@
+
+
+$weights: 100, 200, 300, 400, 500, 600, 700;
+
+@each $weight in $weights {
+  .msc-#{$weight} {
+    --wght: #{$weight};
+  }
+}
+
 .msc-fill {
   font-variation-settings: "FILL" 1;
 }
 
-$weights: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+$fills: 0, 1;
 
-@each $weight in $weights {
-  .msc-#{$weight} {
-    font-weight: $weight;
+@each $fill in $fills {
+  .msc-fill-#{$fill} {
+    --fill: #{$fill};
+  }
+}
+
+$grades: -25, 0, 200;
+
+@each $grade in $grades {
+  .msc-grade-#{$grade} {
+    --grad: #{$grade};
+  }
+}
+
+$opszs: 20, 24, 40, 48;
+
+@each $opsz in $opszs {
+  .msc-opsz-#{$opsz} {
+    --opsz: #{$opsz};
   }
 }
 

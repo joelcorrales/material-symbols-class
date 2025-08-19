@@ -1,7 +1,13 @@
 @use "./node_modules/material-symbols/rounded.scss";
 
 .msc-r,
-.msc-rounded {
+.msc-rounded,
+.material-symbols-rounded {
   @extend .material-symbols-rounded;
   font-size: 1.5em;
+  font-variation-settings:
+    'FILL' var(--fill, 0),
+    'wght' var(--wght, 400),
+    'GRAD' var(--grad, 0),
+    'opsz' var(--opsz, 48);
 }
