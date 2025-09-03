@@ -5,8 +5,8 @@ on:
   push:
     # branches:
     #   - main
-    # tags:
-    #   - v*.*.*
+    tags:
+      - v*.*.*
 
 jobs:
   build:
@@ -19,8 +19,6 @@ jobs:
 
       - name: Set up pnpm v10
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
 
       - name: Set up NodeJS v23
         uses: actions/setup-node@v4
@@ -28,8 +26,8 @@ jobs:
           cache: "pnpm"
           node-version: 23
 
-      - run: npm ci
+      - run: pnpm install --frozen-lockfile
 
-      - run: npm publish --provenance --access public
+      - run: pnpm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
