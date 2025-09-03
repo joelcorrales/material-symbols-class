@@ -4954,6 +4954,10 @@
   content: "familiar_face_and_zone";
 }
 
+.msc-family_group:after {
+  content: "family_group";
+}
+
 .msc-family_history:after {
   content: "family_history";
 }
@@ -5300,6 +5304,10 @@
 
 .msc-fitness_tracker:after {
   content: "fitness_tracker";
+}
+
+.msc-fitness_trackers:after {
+  content: "fitness_trackers";
 }
 
 .msc-flag:after {
@@ -7862,6 +7870,10 @@
   content: "mail";
 }
 
+.msc-mail_asterisk:after {
+  content: "mail_asterisk";
+}
+
 .msc-mail_lock:after {
   content: "mail_lock";
 }
@@ -8388,6 +8400,10 @@
 
 .msc-mobile_text_2:after {
   content: "mobile_text_2";
+}
+
+.msc-mobile_theft:after {
+  content: "mobile_theft";
 }
 
 .msc-mobile_ticket:after {
@@ -11804,10 +11820,6 @@
 
 .msc-sign_language:after {
   content: "sign_language";
-}
-
-.msc-sign_language_2:after {
-  content: "sign_language_2";
 }
 
 .msc-signal_cellular_0_bar:after {
