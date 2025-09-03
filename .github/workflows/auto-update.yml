@@ -15,7 +15,7 @@ jobs:
       latest: ${{ steps.check.outputs.latest }}
       current: ${{ steps.check.outputs.current }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Set up NodeJS v23
         uses: actions/setup-node@v4
@@ -39,7 +39,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ secrets.SECRET_PAT }}
 
