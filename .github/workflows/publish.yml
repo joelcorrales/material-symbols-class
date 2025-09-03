@@ -5,8 +5,8 @@ on:
   push:
     # branches:
     #   - main
-    tags:
-      - v*.*.*
+    # tags:
+    #   - v*.*.*
 
 jobs:
   build:
@@ -15,12 +15,21 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+
+      - name: Set up pnpm v10
+        uses: pnpm/action-setup@v4
         with:
-          node-version: "20.x"
-          registry-url: "https://registry.npmjs.org"
+          version: 10
+
+      - name: Set up NodeJS v23
+        uses: actions/setup-node@v4
+        with:
+          cache: "pnpm"
+          node-version: 23
+
       - run: npm ci
+
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
