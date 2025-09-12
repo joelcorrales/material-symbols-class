@@ -2718,6 +2718,10 @@
   content: "chat_bubble";
 }
 
+.msc-chat_dashed:after {
+  content: "chat_dashed";
+}
+
 .msc-chat_error:after {
   content: "chat_error";
 }
@@ -5836,6 +5840,14 @@
 
 .msc-fragrance:after {
   content: "fragrance";
+}
+
+.msc-frame_bug:after {
+  content: "frame_bug";
+}
+
+.msc-frame_exclamation:after {
+  content: "frame_exclamation";
 }
 
 .msc-frame_inspect:after {
