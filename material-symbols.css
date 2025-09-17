@@ -1190,6 +1190,10 @@
   content: "assignment_add";
 }
 
+.msc-assignment_globe:after {
+  content: "assignment_globe";
+}
+
 .msc-assignment_ind:after {
   content: "assignment_ind";
 }
