@@ -8610,10 +8610,6 @@
   content: "motion_photos_auto";
 }
 
-.msc-motion_photos_off:after {
-  content: "motion_photos_off";
-}
-
 .msc-motion_photos_on:after {
   content: "motion_photos_on";
 }
@@ -13716,10 +13712,6 @@
 
 .msc-tram:after {
   content: "tram";
-}
-
-.msc-transcribe:after {
-  content: "transcribe";
 }
 
 .msc-transfer_within_a_station:after {
