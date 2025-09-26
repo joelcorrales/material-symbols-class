@@ -8426,6 +8426,10 @@
   content: "mobile_ticket";
 }
 
+.msc-mobile_unlock:after {
+  content: "mobile_unlock";
+}
+
 .msc-mobile_vibrate:after {
   content: "mobile_vibrate";
 }
@@ -14500,6 +14504,10 @@
 
 .msc-watch_check:after {
   content: "watch_check";
+}
+
+.msc-watch_lock:after {
+  content: "watch_lock";
 }
 
 .msc-watch_off:after {
