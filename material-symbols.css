@@ -1994,6 +1994,10 @@
   content: "bookmark_remove";
 }
 
+.msc-bookmark_stacks:after {
+  content: "bookmark_stacks";
+}
+
 .msc-bookmark_star:after {
   content: "bookmark_star";
 }
@@ -6428,6 +6432,10 @@
 
 .msc-hearing_disabled:after {
   content: "hearing_disabled";
+}
+
+.msc-heart_arrow:after {
+  content: "heart_arrow";
 }
 
 .msc-heart_broken:after {

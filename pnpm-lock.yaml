@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       material-symbols:
-        specifier: 0.36.1
-        version: 0.36.1
+        specifier: 0.36.2
+        version: 0.36.2
       sass:
         specifier: 1.79.6
         version: 1.79.6
@@ -131,8 +131,8 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
-  material-symbols@0.36.1:
-    resolution: {integrity: sha512-JcvqThN50Q6MrdcX73SgDU2qwzZDTS8IkcbqmsB/XFOgbGFTOlocKPEtdxfKRCW+FdMh46ycFkYS6WMIkoqIsQ==}
+  material-symbols@0.36.2:
+    resolution: {integrity: sha512-FbxzGgQSmAb53Kajv+jyqcZ3Ck0ebfTBSMwHkMoyThsbrINiJb5mzheoiFXA/9MGc3cIl9XbhW8JxPM5vEP6iA==}
 
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
@@ -248,7 +248,7 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  material-symbols@0.36.1: {}
+  material-symbols@0.36.2: {}
 
   micromatch@4.0.8:
     dependencies:
