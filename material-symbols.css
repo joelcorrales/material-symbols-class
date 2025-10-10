@@ -2862,6 +2862,10 @@
   content: "chevron_left";
 }
 
+.msc-chevron_line_up:after {
+  content: "chevron_line_up";
+}
+
 .msc-chevron_right:after {
   content: "chevron_right";
 }
@@ -9704,6 +9708,10 @@
 
 .msc-passkey:after {
   content: "passkey";
+}
+
+.msc-passport:after {
+  content: "passport";
 }
 
 .msc-password:after {
