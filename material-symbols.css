@@ -1142,6 +1142,10 @@
   content: "arrows_input";
 }
 
+.msc-arrows_left_right_circle:after {
+  content: "arrows_left_right_circle";
+}
+
 .msc-arrows_more_down:after {
   content: "arrows_more_down";
 }
@@ -1156,6 +1160,10 @@
 
 .msc-arrows_outward:after {
   content: "arrows_outward";
+}
+
+.msc-arrows_up_down_circle:after {
+  content: "arrows_up_down_circle";
 }
 
 .msc-art_track:after {
@@ -1384,6 +1392,10 @@
 
 .msc-azm:after {
   content: "azm";
+}
+
+.msc-b_circle:after {
+  content: "b_circle";
 }
 
 .msc-baby_changing_station:after {
@@ -2916,6 +2928,10 @@
 
 .msc-circle:after {
   content: "circle";
+}
+
+.msc-circle_circle:after {
+  content: "circle_circle";
 }
 
 .msc-circle_notifications:after {
@@ -5950,8 +5966,88 @@
   content: "gallery_thumbnail";
 }
 
+.msc-game_bumper_left:after {
+  content: "game_bumper_left";
+}
+
+.msc-game_bumper_right:after {
+  content: "game_bumper_right";
+}
+
+.msc-game_button_l:after {
+  content: "game_button_l";
+}
+
+.msc-game_button_l1:after {
+  content: "game_button_l1";
+}
+
+.msc-game_button_l2:after {
+  content: "game_button_l2";
+}
+
+.msc-game_button_r:after {
+  content: "game_button_r";
+}
+
+.msc-game_button_r1:after {
+  content: "game_button_r1";
+}
+
+.msc-game_button_r2:after {
+  content: "game_button_r2";
+}
+
+.msc-game_button_zl:after {
+  content: "game_button_zl";
+}
+
+.msc-game_button_zr:after {
+  content: "game_button_zr";
+}
+
+.msc-game_trigger_left:after {
+  content: "game_trigger_left";
+}
+
+.msc-game_trigger_right:after {
+  content: "game_trigger_right";
+}
+
 .msc-gamepad:after {
   content: "gamepad";
+}
+
+.msc-gamepad_circle_down:after {
+  content: "gamepad_circle_down";
+}
+
+.msc-gamepad_circle_left:after {
+  content: "gamepad_circle_left";
+}
+
+.msc-gamepad_circle_right:after {
+  content: "gamepad_circle_right";
+}
+
+.msc-gamepad_circle_up:after {
+  content: "gamepad_circle_up";
+}
+
+.msc-gamepad_down:after {
+  content: "gamepad_down";
+}
+
+.msc-gamepad_left:after {
+  content: "gamepad_left";
+}
+
+.msc-gamepad_right:after {
+  content: "gamepad_right";
+}
+
+.msc-gamepad_up:after {
+  content: "gamepad_up";
 }
 
 .msc-garage:after {
@@ -10710,6 +10806,10 @@
   content: "rectangle";
 }
 
+.msc-rectangle_add:after {
+  content: "rectangle_add";
+}
+
 .msc-recycling:after {
   content: "recycling";
 }
@@ -12478,6 +12578,10 @@
   content: "square";
 }
 
+.msc-square_circle:after {
+  content: "square_circle";
+}
+
 .msc-square_dot:after {
   content: "square_dot";
 }
@@ -13810,6 +13914,10 @@
   content: "trending_up";
 }
 
+.msc-triangle_circle:after {
+  content: "triangle_circle";
+}
+
 .msc-trip:after {
   content: "trip";
 }
@@ -14908,6 +15016,14 @@
 
 .msc-wysiwyg:after {
   content: "wysiwyg";
+}
+
+.msc-x_circle:after {
+  content: "x_circle";
+}
+
+.msc-y_circle:after {
+  content: "y_circle";
 }
 
 .msc-yakitori:after {
