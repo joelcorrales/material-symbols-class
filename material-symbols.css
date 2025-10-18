@@ -3858,10 +3858,6 @@
   content: "detection_and_zone";
 }
 
-.msc-detection_and_zone_off:after {
-  content: "detection_and_zone_off";
-}
-
 .msc-detector:after {
   content: "detector";
 }
@@ -6004,22 +6000,6 @@
 
 .msc-game_button_zr:after {
   content: "game_button_zr";
-}
-
-.msc-game_stick_l3:after {
-  content: "game_stick_l3";
-}
-
-.msc-game_stick_left:after {
-  content: "game_stick_left";
-}
-
-.msc-game_stick_r3:after {
-  content: "game_stick_r3";
-}
-
-.msc-game_stick_right:after {
-  content: "game_stick_right";
 }
 
 .msc-game_trigger_left:after {
@@ -9434,14 +9414,6 @@
   content: "notification_add";
 }
 
-.msc-notification_audio:after {
-  content: "notification_audio";
-}
-
-.msc-notification_audio_off:after {
-  content: "notification_audio_off";
-}
-
 .msc-notification_important:after {
   content: "notification_important";
 }
@@ -12772,10 +12744,6 @@
 
 .msc-stethoscope_check:after {
   content: "stethoscope_check";
-}
-
-.msc-sticker_add:after {
-  content: "sticker_add";
 }
 
 .msc-sticky_note:after {
