@@ -3202,6 +3202,10 @@
   content: "computer_cancel";
 }
 
+.msc-computer_sound:after {
+  content: "computer_sound";
+}
+
 .msc-concierge:after {
   content: "concierge";
 }
@@ -3856,6 +3860,10 @@
 
 .msc-detection_and_zone:after {
   content: "detection_and_zone";
+}
+
+.msc-detection_and_zone_off:after {
+  content: "detection_and_zone_off";
 }
 
 .msc-detector:after {
@@ -6002,6 +6010,22 @@
   content: "game_button_zr";
 }
 
+.msc-game_stick_l3:after {
+  content: "game_stick_l3";
+}
+
+.msc-game_stick_left:after {
+  content: "game_stick_left";
+}
+
+.msc-game_stick_r3:after {
+  content: "game_stick_r3";
+}
+
+.msc-game_stick_right:after {
+  content: "game_stick_right";
+}
+
 .msc-game_trigger_left:after {
   content: "game_trigger_left";
 }
@@ -6528,10 +6552,6 @@
 
 .msc-hearing_disabled:after {
   content: "hearing_disabled";
-}
-
-.msc-heart_arrow:after {
-  content: "heart_arrow";
 }
 
 .msc-heart_broken:after {
@@ -8274,6 +8294,10 @@
   content: "mic_external_on";
 }
 
+.msc-mic_gear:after {
+  content: "mic_gear";
+}
+
 .msc-mic_off:after {
   content: "mic_off";
 }
@@ -9414,6 +9438,14 @@
   content: "notification_add";
 }
 
+.msc-notification_audio:after {
+  content: "notification_audio";
+}
+
+.msc-notification_audio_off:after {
+  content: "notification_audio_off";
+}
+
 .msc-notification_important:after {
   content: "notification_important";
 }
@@ -10012,6 +10044,10 @@
 
 .msc-person_shield:after {
   content: "person_shield";
+}
+
+.msc-person_text:after {
+  content: "person_text";
 }
 
 .msc-personal_bag:after {
@@ -12746,6 +12782,14 @@
   content: "stethoscope_check";
 }
 
+.msc-sticker:after {
+  content: "sticker";
+}
+
+.msc-sticker_add:after {
+  content: "sticker_add";
+}
+
 .msc-sticky_note:after {
   content: "sticky_note";
 }
@@ -14474,6 +14518,10 @@
   content: "voice_chat";
 }
 
+.msc-voice_chat_off:after {
+  content: "voice_chat_off";
+}
+
 .msc-voice_over_off:after {
   content: "voice_over_off";
 }
@@ -14816,6 +14864,10 @@
 
 .msc-widget_medium:after {
   content: "widget_medium";
+}
+
+.msc-widget_menu:after {
+  content: "widget_menu";
 }
 
 .msc-widget_small:after {
