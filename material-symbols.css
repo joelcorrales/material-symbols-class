@@ -4910,6 +4910,10 @@
   content: "eye_tracking";
 }
 
+.msc-eyebrow:after {
+  content: "eyebrow";
+}
+
 .msc-eyeglasses:after {
   content: "eyeglasses";
 }
@@ -7704,6 +7708,10 @@
 
 .msc-linked_services:after {
   content: "linked_services";
+}
+
+.msc-lips:after {
+  content: "lips";
 }
 
 .msc-liquor:after {
@@ -14108,6 +14116,10 @@
 
 .msc-unarchive:after {
   content: "unarchive";
+}
+
+.msc-undereye:after {
+  content: "undereye";
 }
 
 .msc-undo:after {
