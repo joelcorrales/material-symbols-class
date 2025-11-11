@@ -5698,6 +5698,30 @@
   content: "format_h6";
 }
 
+.msc-format_image_back:after {
+  content: "format_image_back";
+}
+
+.msc-format_image_break_left:after {
+  content: "format_image_break_left";
+}
+
+.msc-format_image_break_right:after {
+  content: "format_image_break_right";
+}
+
+.msc-format_image_front:after {
+  content: "format_image_front";
+}
+
+.msc-format_image_inline_left:after {
+  content: "format_image_inline_left";
+}
+
+.msc-format_image_inline_right:after {
+  content: "format_image_inline_right";
+}
+
 .msc-format_image_left:after {
   content: "format_image_left";
 }
@@ -13528,6 +13552,10 @@
 
 .msc-thermometer_add:after {
   content: "thermometer_add";
+}
+
+.msc-thermometer_alert:after {
+  content: "thermometer_alert";
 }
 
 .msc-thermometer_gain:after {
