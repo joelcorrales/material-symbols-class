@@ -6850,6 +6850,10 @@
   content: "hourglass_bottom";
 }
 
+.msc-hourglass_check:after {
+  content: "hourglass_check";
+}
+
 .msc-hourglass_disabled:after {
   content: "hourglass_disabled";
 }
