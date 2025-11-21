@@ -2590,6 +2590,10 @@
   content: "cards";
 }
 
+.msc-cards_stack:after {
+  content: "cards_stack";
+}
+
 .msc-cards_star:after {
   content: "cards_star";
 }
@@ -6280,6 +6284,10 @@
 
 .msc-graph_7:after {
   content: "graph_7";
+}
+
+.msc-graph_8:after {
+  content: "graph_8";
 }
 
 .msc-graphic_eq:after {
@@ -14592,10 +14600,6 @@
 
 .msc-volume_down:after {
   content: "volume_down";
-}
-
-.msc-volume_down_alt:after {
-  content: "volume_down_alt";
 }
 
 .msc-volume_mute:after {
