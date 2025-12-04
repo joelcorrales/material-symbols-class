@@ -3630,6 +3630,14 @@
   content: "dashboard_2";
 }
 
+.msc-dashboard_2_edit:after {
+  content: "dashboard_2_edit";
+}
+
+.msc-dashboard_2_gear:after {
+  content: "dashboard_2_gear";
+}
+
 .msc-dashboard_customize:after {
   content: "dashboard_customize";
 }
@@ -8956,6 +8964,10 @@
 
 .msc-music_note:after {
   content: "music_note";
+}
+
+.msc-music_note_2:after {
+  content: "music_note_2";
 }
 
 .msc-music_note_add:after {
