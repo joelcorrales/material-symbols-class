@@ -14426,6 +14426,10 @@
   content: "video_stable";
 }
 
+.msc-video_template:after {
+  content: "video_template";
+}
+
 .msc-videocam:after {
   content: "videocam";
 }
